@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+main{
+    background-color: white;
+    border-radius: 50px 10px 25px 25px; /*50px superior esquerdo, 10px superior direito, 25px inferior direito, 25px inferior esquerdo, todos sao nessa sequencia*/
+    box-shadow: 5px 10px 15px black; /*sombra onde 5px de deslocamento, 10px de desfoque e 15px de espessura */
+    width: 600px;
+    padding: 10px;
+    margin: auto; /*50px superior, 10px direito, 25px inferior, 25px esquerdo, todos sao nessa sequencia, quando é 1 valor, ele se aplica a todos os lados, quando é 2 valores, o primeiro se aplica aos lados e o segundo aos cantos, quando é 3 valores, o primeiro se aplica ao topo, o segundo aos cantos e o terceiro ao inferior */
+}
+
+h1{
+    color: #f392f3;
+}
+
+h2{
+    color: #f392f3;
+}
+
+p{
+    text-align: justify;
+}

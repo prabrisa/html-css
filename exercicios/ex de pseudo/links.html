@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*
+    : => pseudo classe
+    :: => pseudo elemento
+    # => id
+    . => class
+
+    Pseudo classe => é um estado do elemento, ou seja, quando o elemento estiver em um estado específico, a pseudo classe é ativada
+    Pseudo elemento => é um elemento que é criado a partir de um elemento existente
+
+    pseudo classe:
+    hover => quando passar o mouse sobre o elemento
+    active => quando clicar no elemento
+    visited => quando o link ja foi visitado
+
+    pseudo elemento:
+    before => cria um elemento antes do elemento selecionado
+    after => cria um elemento depois do elemento selecionado
+
+    target="-blank" => abre o link em uma nova aba
+    */
+
+    h1 {
+        margin: 10px 10px 10px 10px;
+        border: 10px solid pink;
+        padding: 10px 10px 10px 10px;
+    }
+    div {
+        display: flow-root;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:visited {
+        color: gray;
+    }
+
+    a:hover {
+        color: seagreen;
+        text-decoration: underline;
+    }
+    a:active {
+        color: aquamarine;
+    }
+
+    #jogo::before {
+        content: '=> ';
+    }
+    #jogo {
+        color : silver;
+    }
+    #jogo:hover {
+        color: slateblue;
+    }
+    
+    #jogo::after {
+        content: ' - Link de mapa';
+    }
+    p:hover {
+        color: blue;
+    }
+    p::first-line {
+        font-size: 30px;
+        color: red;
+    }
+    
+    
+
+</style>
+<body>
+    <h1>Alguns links</h1>
+    <ul>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Video do guanabara</a></li>
+        <li><a id="jogo" target="_blank" href="https://mapgenie.io/">Mapa jogo</a></li>
+        <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/13B823ukxdVMocowo1s5XnT3tzciOfruhUVePENKc01o/edit?gid=1870223413#gid=1870223413">Clone hero songs</a></li>
+    </ul>
+    <div class="especial">Exemplo de algo ai</div>
+    <div>Outra coisa ai</div>
+    <p>siela pora Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, totam. Expedita fugiat ea quas nisi sunt laudantium corrupti ad! Ducimus placeat in minima exercitationem veritatis molestias eius quis praesentium consectetur.</p>
+</body>
+</html>
