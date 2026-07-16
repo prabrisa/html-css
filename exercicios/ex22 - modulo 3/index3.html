@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+            /* posicionamento absoluto: o elemento é posicionado em relação ao seu elemento pai mais próximo que tenha posicionamento relativo, absoluto ou fixo. Se não houver nenhum elemento pai com posicionamento, ele será posicionado em relação ao elemento <html>.
+            transform: translate(-50%, -50%): move o elemento 50% da sua largura para a esquerda e 50% da sua altura para cima, centralizando-o em relação ao seu elemento pai.
+            */
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
