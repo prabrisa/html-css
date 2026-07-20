@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Passion One";
+    src: url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap");
+}
+@font-face {
+    font-family: "Sriracha";
+    src: url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: black;
+    height: 330px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 150px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+}
+.maior{
+    font-size: 200px;
+}
+#autor {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+   text-decoration: none;
+   color: white; 
+   font-weight: bold;
+}
+
+
+div > p{
+    line-height: 2em;
+    padding: 30px 20px 0px 35px;
+    width: 780px;
+    font-family: "Sriracha", sans-serif;
+    font-size: 65px;
+}
+.fundo {
+    background-image: url(imagens/background001.jpg);
+    color: white;
+}
+
