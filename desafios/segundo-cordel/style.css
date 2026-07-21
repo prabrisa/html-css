@@ -16,19 +16,20 @@
 
 header {
     background-color: black;
-    height: 330px;
+    height: 17vw;
     color: white;
     text-align: center;
-    padding-top: 50px;
     margin-bottom: 50px;
+    min-height: 170px;
 }
 h1 {
-    font-size: 150px;
+    font-size: 7vw;
     font-family: "Passion One", sans-serif;
     font-weight: 600;
+    padding-top: 50px;
 }
 .maior{
-    font-size: 200px;
+    font-size: 9vw;
 }
 #autor {
     font-size: 20px;
@@ -44,12 +45,47 @@ a {
 div > p{
     line-height: 2em;
     padding: 30px 20px 0px 35px;
-    width: 780px;
+    
     font-family: "Sriracha", sans-serif;
-    font-size: 65px;
+    font-size: 3.5vw;
 }
 .fundo {
-    background-image: url(imagens/background001.jpg);
     color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    margin-bottom: 15vmin;
+    margin-top: 25vmin;
+    box-shadow: inset 1px 0px 30px 0px black;
+    
+}
+.escuro {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 70px 0px 70px 30px;
+    padding: 4px; 
+    width: 41.2vw;
+    text-shadow: 1px 1px 2px black;
+}
+#f1 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+}
+#f2 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-top: 30vmax;
+    font-size: 20px;
 }
 
